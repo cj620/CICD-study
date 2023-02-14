@@ -1,3 +1,7 @@
+/*
+ * @Author: C.
+ * @Date: 2023-02-14 14:58:37
+ */
 import type { FC } from 'react';
 import { useState } from 'react';
 import './App.css';
@@ -14,7 +18,7 @@ const App: FC<Props> = ({ value }) => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <p>Hello Vite + React!test</p>
         <p>
           <button role="button" type="button" onClick={() => setCount((v) => v + 1)}>
             count is: {count}
